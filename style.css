@@ -1,0 +1,95 @@
+html, body {
+background-color: grey;  
+ font-family: "Nanum Myeongjo", serif;
+  color: black;
+  margin: 2px;
+  margin-bottom:30px;
+}
+
+.inicio{
+  background: white;
+font-size: 35px;
+  margin:30px;
+  padding:20px;
+  display: flex;
+  border-radius: 50px;
+  box-shadow: 2px 5px 5px black;
+}
+
+header{
+  font-family: "Crimson Text", serif;
+  color: black;
+  font-size: 80px;
+  display: flex;
+  position: relative;
+  margin: 20px;
+  padding: 0px;
+  border-bottom: 3px solid black;
+  box-shadow: 2px 5px 5px black;
+
+  
+}
+
+.oi{
+  align-content: center;
+  margin-left: 50px;
+}
+p{
+  text-aling: justify;
+}
+
+.video{
+  margin: 10px;
+}
+
+
+header img{
+  width: 230px;
+  height:200px;
+  margin-left: 250px;
+  
+}
+
+
+h3{
+  color: black;
+  font-sze: 40px;
+  font-weight: 800;
+  border-bottom: 2px solid white
+}
+
+
+.clipes{
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.clipes img{
+  height:200px;
+  opacity: 0.5;
+}
+
+.clipes img:hover{
+  opacity: 1.0;
+  border: solid 4px white;
+  box-shadow: 2px 4px 4px gray;
+}
+
+footer{
+ font-family: "Crimson Text", serif;
+  color: black;
+  background-color: #EE6D64;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 1em;
+  padding-bottom: 30px;
+  font-size: 1.7rem;
+  display: block;
+  margin: 0 auto;
+    
+}
